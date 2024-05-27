@@ -17,7 +17,7 @@ data = data.dropna()
 
 # Plot the data
 plt.figure(figsize=(15, 6))
-plt.plot(data['Time_from_Start'], data['BIO1'], label='Current over Time')
+plt.plot(data['Time_from_Start'], data['BIO1'], label='Current over Time', color='blue')
 plt.xlabel('Time (sec)')
 plt.ylabel('Current (nA)')
 plt.title('Current vs. Time from Start')

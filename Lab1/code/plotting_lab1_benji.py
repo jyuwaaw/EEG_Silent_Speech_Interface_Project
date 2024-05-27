@@ -16,8 +16,8 @@ data['Potential_V'] = pd.to_numeric(data['Potential_V'], errors='coerce')
 data = data.dropna()
 
 # Plot the data
-plt.figure(figsize=(10, 5))
-plt.plot(data['Time_sec'], data['Potential_V'], label='Potential over Time')
+plt.figure(figsize=(15, 5))
+plt.plot(data['Time_sec'], data['Potential_V'], label='Potential over Time', color='blue')
 plt.xlabel('Time (sec)')
 plt.ylabel('Potential (V)')
 plt.ylim(-0.5, 0.6)
