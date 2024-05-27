@@ -2,7 +2,7 @@ import pandas as pd
 import matplotlib.pyplot as plt
 
 # Load the CSV file, skipping the metadata rows
-file_path = '0520_group2.csv'
+file_path = 'D:\VSCode\Bioinstrumentation\Lab1\src\data\Data files\\0520_group2.csv'
 
 # Replace with the actual path to your CSV file
 df = pd.read_csv(file_path, skiprows=4)
