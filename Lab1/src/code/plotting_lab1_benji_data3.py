@@ -4,7 +4,7 @@ import matplotlib.pyplot as plt
 from scipy.stats import linregress
 
 # Load the CSV file, skipping the first 5 rows and using the 6th row as the header
-file_path = 'D:\\VSCode\\Bioinstrumentation\\Lab1\\src\\data\\Data files\\0520_group1.csv'
+file_path = 'D:\\VSCode\\Bioinstrumentation\\Lab1\\src\\data\\Data files\\0520_group3.csv'
 data = pd.read_csv(file_path, skiprows=5)
 
 # Rename columns for convenience
@@ -19,9 +19,9 @@ data = data.dropna()
 
 # Define the time ranges for sensitivity calculations
 time_ranges = [
-    (30, 80),    # First range
-    (150, 200),  # Second range
-    (240, 290)   # Third range
+    (70, 120),    # First range
+    (180, 230),  # Second range
+    (280, 330)   # Third range
 ]
 
 # Combine the segments into a single dataset
