@@ -1,5 +1,5 @@
 # Bioinstrumentation EECS 289
-Repository for *2024 Spring EECS 289 Group 10*, UC Irvine
+Project repository for *2024 Spring EECS 289 Group 10*, UC Irvine
 Last Modified: 4:45 Jun 1st,2024
 ## Eye Blink Detection
 #### Following steps are sufficient for setting up eye blinking detection application using Cyton board from OpenBCI.
