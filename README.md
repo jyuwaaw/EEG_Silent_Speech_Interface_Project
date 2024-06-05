@@ -1,6 +1,7 @@
-# Bioinstrumentation EECS 289
+# Silent Speech Interface Project 
+### EECS 289 Bioinstrumentation
 Project repository for *2024 Spring EECS 289 Group 10*, UC Irvine
-Last Modified: 4:45 Jun 1st,2024
+Last Modified: 13:37 Jun 5,2024
 ## Eye Blink Detection
 #### Following steps are sufficient for setting up eye blinking detection application using Cyton board from OpenBCI.
 1. [GUI Download](https://openbci.com/downloads)
