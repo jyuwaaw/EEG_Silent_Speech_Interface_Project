@@ -6,7 +6,8 @@ Last Modified: 4:45 Jun 1st,2024
 1. [GUI Download](https://openbci.com/downloads)
 2. [GUI Guide](https://docs.openbci.com/Software/OpenBCISoftware/GUIDocs/#installing-the-openbci-gui-as-a-standalone-application)
 3. [Cyton Guide](https://docs.openbci.com/GettingStarted/Boards/CytonGS/)
-4. [Related Work](https://openbci.com/community/eog-eye-movement-blink-detection-with-the-openbci-cyton/)
+4. [EEG Setup Guide](https://docs.openbci.com/GettingStarted/Biosensing-Setups/EEGSetup/)
+5. [Related Work](https://openbci.com/community/eog-eye-movement-blink-detection-with-the-openbci-cyton/)
 
 Detailed steps ( ~~Too Lazy Reading~~ ):
 1. Plug in the OpenBCI USB Dongle (make sure your USB Dongle is switched to **GPIO 6** and **not** ~~RESET~~. )
